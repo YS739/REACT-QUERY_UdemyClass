@@ -36,6 +36,7 @@ export function InfiniteSpecies() {
             return (
               <Species
                 key={species.name}
+                name={species.name}
                 language={species.language}
                 averageLifespan={species.average_lifespan}
               />
